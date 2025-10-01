@@ -57,8 +57,8 @@
         //│ DELETE   │  4       │  5       │  6       │  +       │   │ LEFT     │ DOWN     │ UP       │ RIGHT    │  ;       │
             &kp DEL    &kp N4     &kp N5     &kp N6     &kp PLUS      &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT   &kp SQT
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-        //│ CAPS     │  1       │  2       │  3       │  0       │   │          │          │          │          │   ENTER  │
-           &caps_word  &kp N1     &kp N2     &kp N3     &kp N0         &trans     &trans     &trans     &trans     &kp ENTER
+        //│ CAPS     │  1       │  2       │  3       │  0       │   │M LEFT    │M DOWN    │M UP      │M RIGHT   │   ENTER  │
+           &caps_word  &kp N1     &kp N2     &kp N3     &kp N0     &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &kp ENTER
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
